@@ -1,0 +1,101 @@
+@import "~foundation-sites/scss/util/util";
+@import "~foundation-sites/scss/util/breakpoint";
+
+$text-dark-color: #666666;
+$text-light-color: #ffffff;
+
+$color-primary: #be95cf;
+$color-primary-2: #60269b;
+
+$color-primary-rgb: rgb(117, 106, 235);
+
+$color-secondary: #4f4f4f;
+$color-secondary-rgb: #4f4f4f;
+
+$color-wood: #af5700;
+$color-wood-2: #dba967;
+
+.footer {
+    background-color: $color-primary;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0 60px;
+    @include breakpoint(large) {
+        flex-direction: row;
+        padding: 35px 0 75px;
+    }
+    &__item {
+        padding: 20px 35px;
+        @include breakpoint(large) {
+            padding: 0 35px;
+        }
+        h3 {
+            margin: 10px 0 15px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+        }
+        p {
+            max-width: 500px;
+            margin: 10px 0;
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+    &__text {
+        position: absolute;
+        z-index: 3;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.3);
+        p {
+            margin: 10px;
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+    &__nav {
+        margin: 0;
+        padding: 0;
+        li {
+            margin: 0 0 15px;
+            list-style: none;
+            a {
+                color: #fff;
+            }
+        }
+    }
+    &__icons {
+        margin: 0;
+        padding: 0;
+        li {
+            margin: 0 15px 0 0;
+            list-style: none;
+            display: inline;
+            a {
+                color: #fff;
+                transition: color 0.3s ease;
+                &:hover {
+                    transition: color 0.3s ease;
+                    color: $color-wood-2;
+                }
+            }
+            i {
+                font-size: 28px;
+            }
+        }
+    }
+    .footer__contact {
+        color: #fff;
+        p {
+            margin: 0 0 10px;
+        }
+        span {
+            font-weight: 600;
+        }
+    }
+}
