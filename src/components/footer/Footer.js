@@ -11,23 +11,23 @@ function Footer() {
         <div className="footer__contact">
             <div className="contact-item">
               <span>Address:</span>
-              <p>Lot VN 24 IBis Ankazolava Ambohitsoa, Madagascar</p>
+              <p>32 Bis Bd Montaigut, 94000, CRETEIL </p>
             </div>
             <div className="contact-item">
               <span>Mobile: </span>
-              <p>+261 33 12 160 06 | +33 7 64 24 60 48</p>
+              <p>+261 33 13 160 06 | +33 7 65 24 60 48</p>
             </div>
             <div className="contact-item">
               <span>E-mail:</span>
-              <p>contact.zakaranda@gmail.com</p>
+              <p>contact.smrt@gmail.com</p>
             </div>
         </div>
       </div>
       <div className="footer__item">
         <ul className="footer__nav">
-            <li><a href="http://kiadybezaka.com/demo-zakaranda#services">Services</a></li>
-            <li><a href="http://kiadybezaka.com/demo-zakaranda#customers">Customers</a></li>
-            <li><a href="http://kiadybezaka.com/demo-zakaranda#team">Team</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Customers</a></li>
+            <li><a href="/">Team</a></li>
         </ul>
       </div>
       <div className="footer__item">
@@ -38,7 +38,7 @@ function Footer() {
         </ul>
       </div>
       <div className="footer__text">
-        <p>&copy; 2019, Zakaranda Web Agency</p>
+        <p>&copy; 2021, React Create App</p>
       </div>
       </footer>
   );
